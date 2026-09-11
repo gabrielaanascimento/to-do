@@ -19,3 +19,7 @@ export async function createTask(taskData: any) {
         throw error;
     }
 }
+
+export async function updateCompleted(status: any) {
+    
+}
